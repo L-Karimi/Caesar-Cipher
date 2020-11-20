@@ -21,9 +21,9 @@ public class DecryptTest {
         @Test
         public void getmShift () {
        }
-//        @Test
-//        public void decrypt () {
-//        }
+       @Test
+        public void decrypt () {
+       }
 //        @Test
 //        public void testGetmInputString () {
 //        }
