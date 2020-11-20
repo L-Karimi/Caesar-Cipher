@@ -24,9 +24,9 @@ public class DecryptTest {
        @Test
         public void decrypt () {
        }
-//        @Test
-//        public void testGetmInputString () {
-//        }
+        @Test
+        public void testGetmInputString () {
+       }
 //        @Test
 //        public void testDecrypt () {
 //        }
