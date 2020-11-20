@@ -1,6 +1,7 @@
 package models;
 
 public class Decrypt {
+
     private String mImputString;
     private int mShift;
 
