@@ -24,9 +24,22 @@ public class Encrypt {
         } else if (encrypt.mShift < 0) {
             encrypt.mShift = (encrypt.mShift % 26) + 26;
         }
+        String outputString = "";
+        int length = encrypt.mImputString.length();
+        for (int i = 0; i< length; i++) {
+            char dd = encrypt.mImputString.charAt(i);
+            if (Character.isAlphabetic(dd)) {
+                if (Character.isLowerCase(dd)) {
+                    char d = (char) (dd + encrypt.mShift);
+                    if (d > 'k') {
+                        outputString += (char) (dd + (26 - encrypt.mShift));
+                    } else {
+                        outputString += d;
+                    }
 
-    }
-}
+                }
+            }
+
 
 
 
