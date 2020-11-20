@@ -17,13 +17,10 @@ public class DecryptTest {
     public void getmInputString() {
     }
 
-//    @Test
-//    public void getmImputString() {
-//
-//        }
-//        @Test
-//        public void getmShift () {
-//        }
+
+        @Test
+        public void getmShift () {
+       }
 //        @Test
 //        public void decrypt () {
 //        }
