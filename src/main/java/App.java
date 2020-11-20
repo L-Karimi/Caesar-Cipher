@@ -29,5 +29,20 @@ public class App {
                 System.out.println("============================");
                 System.out.println("============================");
 
+            } else if (choice.equals("decrypt")) {
+                System.out.println("To decrypt a message enter it below");
+                String sema = myScanner.nextLine();
+                System.out.println("============================");
+
+                System.out.println("Enter the key you used");
+                int namba = myScanner.nextInt();
+                System.out.println("============================");
+                Decrypt ceaser = new Decrypt(sema,namba);
+                String decrypted = Decrypt.decrypt(ceaser);
+
+                System.out.println("Decrypted message: " + decrypted);
+                System.out.println("============================");
+                System.out.println("============================");
+                System.out.println("============================");
 
 }
