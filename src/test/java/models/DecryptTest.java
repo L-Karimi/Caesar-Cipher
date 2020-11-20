@@ -6,6 +6,6 @@ import static org.junit.Assert.*;
 
 public class DecryptTest {
     @Test
-    public void name() {
+    public void Decrypt() {
     }
 }

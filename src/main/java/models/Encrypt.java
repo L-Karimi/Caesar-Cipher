@@ -18,9 +18,9 @@ public class Encrypt {
         return mShift;
     }
 
-    public static String encypt(Encrypt encrypt) {
-        if (encypt.mShift > 26) {
-            encypt.mShift = encypt.mShift % 26;
+    public static String encrypt(Encrypt encrypt) {
+        if (encrypt.mShift > 26) {
+            encrypt.mShift = encrypt.mShift % 26;
         } else if (encrypt.mShift < 0) {
             encrypt.mShift = (encrypt.mShift % 26) + 26;
         }
@@ -44,9 +44,18 @@ public class Encrypt {
                     }
                     else {
                         outputString += d;
-
+                    }
                 }
             }
+            else {
+                outputString += dd;
+            }
+        }
+        return  outputString;
+    }
+}
+
+
 
 
 
