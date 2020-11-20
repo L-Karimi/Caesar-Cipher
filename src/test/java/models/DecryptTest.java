@@ -13,10 +13,10 @@ public class DecryptTest {
     public void Decrypt() {
     }
 
-//    @Test
-//    public void getmInputString() {
-//    }
-//
+   @Test
+    public void getmInputString() {
+    }
+
 //    @Test
 //    public void getmImputString() {
 //
