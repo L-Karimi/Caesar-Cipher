@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.DecryptTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-20T23:30:27" hostname="moringa-ThinkPad-L450" time="0.021">
+  <properties/>
+  <testcase name="Decrypt" classname="models.DecryptTest" time="0.005"/>
+  <testcase name="testGetmInputString" classname="models.DecryptTest" time="0.001"/>
+  <testcase name="getmInputString" classname="models.DecryptTest" time="0.0"/>
+  <testcase name="testDecrypt" classname="models.DecryptTest" time="0.0"/>
+  <testcase name="getmShift" classname="models.DecryptTest" time="0.0"/>
+  <testcase name="decrypt" classname="models.DecryptTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

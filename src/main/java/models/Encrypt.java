@@ -53,6 +53,10 @@ public class Encrypt {
         }
         return  outputString;
     }
+
+    public String getmInputString() {
+        return null;
+    }
 }
 
 
