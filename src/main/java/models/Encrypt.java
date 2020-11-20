@@ -36,6 +36,14 @@ public class Encrypt {
                     } else {
                         outputString += d;
                     }
+                }
+                else if (Character.isUpperCase(dd)){
+                    char d = (char)(dd+encrypt.mShift);
+                    if (d>'K'){
+                        outputString += (char)(dd + (26-encrypt.mShift));
+                    }
+                    else {
+                        outputString += d;
 
                 }
             }
