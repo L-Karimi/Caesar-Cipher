@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DecryptTest">
+  <component name="RunManager" selected="Gradle.EncryptTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Caesar_Cipher.main" />
@@ -127,10 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EncryptTest" />
         <item itemvalue="Gradle.DecryptTest" />
         <item itemvalue="Gradle.DecryptTest.Decrypt" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.EncryptTest" />
       </list>
     </recent_temporary>
   </component>
