@@ -7,7 +7,8 @@ public class App {
 
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
-        boolean runCaesar = true; {
+        boolean runCaesar = true;
+        {
 
             System.out.println("Welcome to my Caesar Cipher");
             System.out.println("============================");
@@ -37,7 +38,7 @@ public class App {
                 System.out.println("Enter the key you used");
                 int namba = myScanner.nextInt();
                 System.out.println("============================");
-                Decrypt ceaser = new Decrypt(sema,namba);
+                Decrypt ceaser = new Decrypt(sema, namba);
                 String decrypted = Decrypt.decrypt(ceaser);
 
                 System.out.println("Decrypted message: " + decrypted);
@@ -45,4 +46,9 @@ public class App {
                 System.out.println("============================");
                 System.out.println("============================");
 
+            } else if (choice.equals("exit")) {
+                runCaesar = false;
+            }
+        }
+    }
 }
