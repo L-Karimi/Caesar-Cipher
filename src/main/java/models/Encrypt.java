@@ -10,7 +10,7 @@ public class Encrypt {
         this.mShift = mShift;
     }
 
-    public String getmImputString() {
+    public String getmInputString() {
         return mImputString;
     }
 
@@ -54,9 +54,11 @@ public class Encrypt {
         return  outputString;
     }
 
-    public String getmInputString() {
-        return null;
-    }
+
+
+//    public String getmInputString() {
+//        return null;
+//    }
 }
 
 
