@@ -17,6 +17,10 @@
 
 ##DEMO
 * Git clone https://github.com/luciahroyalty101/Caesar-Cipher.git to view the working of this project. 
+
+##TECNOLOGIES USED
+* Java
+
 ###LICENCE
 *  licensed under [MIT license](LICENSE)
 
