@@ -15,6 +15,10 @@
  4. Right click on the project folder and choose open with IntelliJ IDEA.
  5. Then open the terminal and write `javac caesar.java && java caesar`.
 
+##BDD
+![Screenshot from 2020-11-24 21-19-02](https://user-images.githubusercontent.com/68492502/100135502-c7fcb200-2e9a-11eb-874b-5e0eba24f140.png)
+
+
 ##DEMO
 * Git clone https://github.com/luciahroyalty101/Caesar-Cipher.git to view the working of this project. 
 ###LICENCE
