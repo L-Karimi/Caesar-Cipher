@@ -2,16 +2,16 @@ package models;
 
 public class Encrypt {
 
-    private String mImputString;
+    private String mInputString;
     private int mShift;
 
-    public Encrypt(String mImputString, int mShift) {
-        this.mImputString = mImputString;
+    public Encrypt(String mInputString, int mShift) {
+        this.mInputString = mInputString;
         this.mShift = mShift;
     }
 
     public String getmInputString() {
-        return mImputString;
+        return mInputString;
     }
 
     public int getmShift() {
@@ -25,13 +25,13 @@ public class Encrypt {
             encrypt.mShift = (encrypt.mShift % 26) + 26;
         }
         String outputString = "";
-        int length = encrypt.mImputString.length();
+        int length = encrypt.mInputString.length();
         for (int i = 0; i< length; i++) {
-            char dd = encrypt.mImputString.charAt(i);
+            char dd = encrypt.mInputString.charAt(i);
             if (Character.isAlphabetic(dd)) {
                 if (Character.isLowerCase(dd)) {
                     char d = (char) (dd + encrypt.mShift);
-                    if (d > 'k') {
+                    if (d < 'k') {
                         outputString += (char) (dd + (26 - encrypt.mShift));
                     } else {
                         outputString += d;
@@ -39,7 +39,7 @@ public class Encrypt {
                 }
                 else if (Character.isUpperCase(dd)){
                     char d = (char)(dd+encrypt.mShift);
-                    if (d>'K'){
+                    if (d<'K'){
                         outputString += (char)(dd + (26-encrypt.mShift));
                     }
                     else {
@@ -54,12 +54,12 @@ public class Encrypt {
         return  outputString;
     }
 
-
+}
 
 //    public String getmInputString() {
 //        return null;
 //    }
-}
+
 
 
 

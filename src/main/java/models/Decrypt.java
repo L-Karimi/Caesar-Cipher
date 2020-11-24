@@ -2,16 +2,16 @@ package models;
 
 public class Decrypt {
 
-    private String mImputString;
+    private String mInputString;
     private int mShift;
 
-    public Decrypt(String mImputString, int mShift) {
-        this.mImputString = mImputString;
+    public Decrypt(String mInputString, int mShift) {
+        this.mInputString = mInputString;
         this.mShift = mShift;
     }
 
-    public String getmImputString() {
-        return mImputString;
+    public String getmInputString() {
+        return mInputString;
     }
 
     public int getmShift() {
@@ -25,12 +25,12 @@ public class Decrypt {
             decrypt.mShift = (decrypt.mShift % 26) + 26;
         }
         String outputString = "";
-        int length = decrypt.mImputString.length();
+        int length = decrypt.mInputString.length();
         for (int i = 0; i< length; i++){
-            char dd = decrypt.mImputString.charAt(i);
+            char dd = decrypt.mInputString.charAt(i);
             if(Character.isAlphabetic(dd)){
                 if (Character.isLowerCase(dd)) {
-                    char d = (char) (dd + decrypt.mShift);
+                    char d = (char) (dd - decrypt.mShift);
                     if (d > 'h') {
                         outputString += (char) (dd + (26 - decrypt.mShift));
                     } else {
@@ -38,7 +38,7 @@ public class Decrypt {
                     }
                 }
                 else if (Character.isUpperCase(dd)){
-                    char d = (char)(dd+decrypt.mShift);
+                    char d = (char)(dd-decrypt.mShift);
                     if (d>'H'){
                         outputString += (char)(dd + (26-decrypt.mShift));
                     }

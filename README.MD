@@ -16,7 +16,7 @@
  5. Then open the terminal and write `javac caesar.java && java caesar`.
 
 ##DEMO
-
+* Git clone https://github.com/luciahroyalty101/Caesar-Cipher.git to view the working of this project. 
 ###LICENCE
 *  licensed under [MIT license](LICENSE)
 
